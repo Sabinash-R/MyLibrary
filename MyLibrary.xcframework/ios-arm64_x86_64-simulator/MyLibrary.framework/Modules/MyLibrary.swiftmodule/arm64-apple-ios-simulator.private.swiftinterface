@@ -1,0 +1,102 @@
+// swift-interface-format-version: 1.0
+// swift-compiler-version: Apple Swift version 6.3.3 effective-5.10 (swiftlang-6.3.3.1.3 clang-2100.1.1.101)
+// swift-module-flags: -target arm64-apple-ios26.5-simulator -enable-objc-interop -enable-library-evolution -swift-version 5 -O -enable-upcoming-feature DisableOutwardActorInference -enable-upcoming-feature InferSendableFromCaptures -enable-upcoming-feature GlobalActorIsolatedTypesUsability -enable-upcoming-feature MemberImportVisibility -enable-upcoming-feature InferIsolatedConformances -enable-upcoming-feature NonisolatedNonsendingByDefault -enable-experimental-feature DebugDescriptionMacro -enable-bare-slash-regex -module-name MyLibrary
+// swift-module-flags-ignorable:  -formal-cxx-interoperability-mode=off -interface-compiler-version 6.3.3
+import Foundation
+import Swift
+import SwiftUI
+import _Concurrency
+import _StringProcessing
+import _SwiftConcurrencyShims
+public class MainDatabaseConnectionEstablisher {
+  public var db: Swift.OpaquePointer?
+  public var path: Swift.String
+  public init()
+  @objc deinit
+  public func restart()
+  public func executeQuery(_ query: Swift.String) -> (Swift.Bool, [[Swift.String : Swift.String]]?)
+}
+public var FQL: MyLibrary.MainDatabaseConnectionEstablisher
+public class DatabaseConnectionEstablisher {
+  public var db: Swift.OpaquePointer?
+  public var path: Swift.String
+  public init()
+  @objc deinit
+  public func restart()
+  public func executeQuery(_ query: Swift.String) -> (Swift.Bool, [[Swift.String : Swift.String]]?)
+}
+@_hasMissingDesignatedInitializers public class DevOpsConnectionEstablisher {
+  @objc deinit
+  public func restart()
+  public func executeQuery(_ query: Swift.String) -> (Swift.Bool, [[Swift.String : Swift.String]]?)
+  public func select(_ qry: Swift.String, file: Swift.String = #file, line: Swift.Int = #line, ErrorHandling: Swift.Bool = true) -> [Swift.String : Swift.String]?
+}
+public var DevOps: MyLibrary.DevOpsConnectionEstablisher
+@_hasMissingDesignatedInitializers public class DeviceFingerprintConnectionEstablisher {
+  @objc deinit
+  public func restart()
+  public func executeQuery(_ query: Swift.String) -> (Swift.Bool, [[Swift.String : Swift.String]]?)
+  public func reset(line: Swift.Int = #line, file: Swift.String = #file) -> Swift.Bool
+  public func select(_ qry: Swift.String, file: Swift.String = #file, line: Swift.Int = #line, ErrorHandling: Swift.Bool = true) -> [Swift.String : Swift.String]?
+}
+public var DF: MyLibrary.DeviceFingerprintConnectionEstablisher
+public func cl<T>(_ object: Any? = nil, _ msg: T = "Reached Line $line : Iterated $i times", type: Swift.String = "Quick Print", line: Swift.Int = #line, function: Swift.String = #function, file: Swift.String = #file)
+public func cl<T>(_ msg: T = "Reached Line $line : Iterated $i times", type: Swift.String = "Quick Print", line: Swift.Int = #line, function: Swift.String = #function, file: Swift.String = #file)
+public func SQLiteEngineStrater()
+@_hasMissingDesignatedInitializers public class SqlTracker {
+  @objc deinit
+}
+@_inheritsConvenienceInitializers public class SQLize : MyLibrary.DatabaseConnectionEstablisher {
+  public func read(_ columnNames: Swift.String, _ tableName: Swift.String, _ whereCondition: Swift.String = "", _ others: Swift.String = "", file: Swift.String = #file, line: Swift.Int = #line) -> [Swift.String : Swift.String]?
+  public func readRowByRow(_ columnNames: Swift.String, _ tableName: Swift.String, _ whereCondition: Swift.String = "", _ others: Swift.String = "", file: Swift.String = #file, line: Swift.Int = #line) -> [Swift.String : Swift.String]?
+  public func debug(line: Swift.Int, tag: Swift.String = "SQL Debug", file: Swift.String = #file) -> MyLibrary.SqlTracker?
+  public func update(tableName: Swift.String, _ kvp: [Swift.String : Swift.String], localcounti: Swift.String) -> (counti: Swift.Int, success: Swift.Bool, selectQuery: Swift.String)
+  public func reset(line: Swift.Int = #line, file: Swift.String = #file) -> Swift.Bool
+  public func insert(_ tableName: Swift.String, _ kvp: [Swift.String : Swift.String], fileName: Swift.String = #file, line: Swift.Int = #line) -> (counti: Swift.Int, success: Swift.Bool, newlyinserted: Swift.Bool, query: Swift.String)
+  public func select(_ qry: Swift.String, file: Swift.String = #file, line: Swift.Int = #line, ErrorHandling: Swift.Bool = true) -> [Swift.String : Swift.String]?
+  public func freeInsert(_ tableName: Swift.String, _ kvp: [Swift.String : Swift.String], fileName: Swift.String = #file) -> (counti: Swift.Int, success: Swift.Bool, query: Swift.String)
+  public func delete(_ tableName: Swift.String, _ whereCondition: Swift.String, fileName: Swift.String = #file) -> (count: Swift.Int, success: Swift.Bool, query: Swift.String)
+  public func end(_ tableName: Swift.String, _ whereCondition: Swift.String, fileName: Swift.String = #file) -> (count: Swift.Int, success: Swift.Bool, query: Swift.String)
+  public func ivc(_ param: Swift.String) -> Swift.String
+  public func getPid(filename: Swift.String) -> Swift.String
+  public func segregateAndPrintCounti(_ output: (Swift.Bool, Any?)) -> Swift.Int
+  public func generateSelectQuery(tableName: Swift.String, data: [Swift.String : Any]) -> Swift.String
+  override public init()
+  @objc deinit
+}
+public var sql: MyLibrary.SQLize
+extension Swift.String {
+  public subscript(i: Swift.Int) -> Swift.Character {
+    get
+  }
+}
+public func str_replace(_ search: Swift.String, _ replace: Swift.String, in originalString: Swift.String) -> Swift.String
+public func Notify(UID: Swift.String, msg: Swift.String)
+public func getDate() -> Swift.String
+public func getTime() -> Swift.String
+public func formatDate(_ inputString: Swift.String) -> Swift.String
+public func ua(_ input: Swift.String) -> Swift.String
+public func uc(_ input: Swift.String) -> Swift.String
+public func nfi(_ input: Swift.String) -> Swift.String?
+public func numberToText(_ number: Swift.Int64) -> Swift.String
+public func generateRandomAlphaNumeric(length: Swift.Int) -> Swift.String
+public func generateRandomNumber(length: Swift.Int) -> Swift.String
+public func generateRandomString(length: Swift.Int) -> Swift.String
+public func enqry(_ query: Swift.String) -> Swift.String
+public func sendSMS(phonenumber: Swift.String, message: Swift.String)
+public func sendEmail(email: Swift.String, subject: Swift.String, body: Swift.String)
+public func sendWhatsapp(groupName: Swift.String, msg: Swift.String)
+@_hasMissingDesignatedInitializers public class User {
+  public func setUserInfo(name: Swift.String, id: Swift.String, area: Swift.String, ownComCode: Swift.String)
+  public func getName() -> Swift.String
+  public func getId() -> Swift.String
+  public func getArea() -> Swift.String
+  public func getOwnComCode() -> Swift.String
+  @objc deinit
+}
+public var user: MyLibrary.User
+public func validatePhoneNumber(_ phoneNumber: Swift.String) -> (Swift.Bool, Swift.String)
+public func validateName(_ name: Swift.String) -> (Swift.Bool, Swift.String)
+public func validateOTP(_ OTP: Swift.String) -> (Swift.Bool, Swift.String)
+public func validateEmail(_ inputEmail: Swift.String) -> (Swift.Bool, Swift.String)
+public func ValidateAddress(_ address: Swift.String) -> (Swift.Bool, Swift.String)

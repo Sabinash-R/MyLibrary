@@ -1,0 +1,15 @@
+{
+  "originHash" : "f5ecfc7cae9af669c9e31c88e1cd1d2198c2d65172dc770e6007473fb3ecbb87",
+  "pins" : [
+    {
+      "identity" : "sqlcipher",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/stoneburner/sqlcipher.git",
+      "state" : {
+        "revision" : "e42d35c830ee442ee3b4630001fe12d7a990e915",
+        "version" : "0.0.4"
+      }
+    }
+  ],
+  "version" : 3
+}

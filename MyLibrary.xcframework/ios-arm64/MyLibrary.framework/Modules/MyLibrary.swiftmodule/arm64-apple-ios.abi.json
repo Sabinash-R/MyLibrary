@@ -1,0 +1,4370 @@
+{
+  "ABIRoot": {
+    "kind": "Root",
+    "name": "MyLibrary",
+    "printedName": "MyLibrary",
+    "children": [
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "MyLibrary",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "SQLCipher",
+        "printedName": "SQLCipher",
+        "declKind": "Import",
+        "moduleName": "MyLibrary",
+        "declAttributes": [
+          "ImplementationOnly"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "MainDatabaseConnectionEstablisher",
+        "printedName": "MainDatabaseConnectionEstablisher",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "db",
+            "printedName": "db",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.OpaquePointer?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "OpaquePointer",
+                    "printedName": "Swift.OpaquePointer",
+                    "usr": "s:s13OpaquePointerV"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:9MyLibrary33MainDatabaseConnectionEstablisherC2dbs13OpaquePointerVSgvp",
+            "mangledName": "$s9MyLibrary33MainDatabaseConnectionEstablisherC2dbs13OpaquePointerVSgvp",
+            "moduleName": "MyLibrary",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.OpaquePointer?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "OpaquePointer",
+                        "printedName": "Swift.OpaquePointer",
+                        "usr": "s:s13OpaquePointerV"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:9MyLibrary33MainDatabaseConnectionEstablisherC2dbs13OpaquePointerVSgvg",
+                "mangledName": "$s9MyLibrary33MainDatabaseConnectionEstablisherC2dbs13OpaquePointerVSgvg",
+                "moduleName": "MyLibrary",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.OpaquePointer?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "OpaquePointer",
+                        "printedName": "Swift.OpaquePointer",
+                        "usr": "s:s13OpaquePointerV"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:9MyLibrary33MainDatabaseConnectionEstablisherC2dbs13OpaquePointerVSgvs",
+                "mangledName": "$s9MyLibrary33MainDatabaseConnectionEstablisherC2dbs13OpaquePointerVSgvs",
+                "moduleName": "MyLibrary",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:9MyLibrary33MainDatabaseConnectionEstablisherC2dbs13OpaquePointerVSgvM",
+                "mangledName": "$s9MyLibrary33MainDatabaseConnectionEstablisherC2dbs13OpaquePointerVSgvM",
+                "moduleName": "MyLibrary",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "path",
+            "printedName": "path",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:9MyLibrary33MainDatabaseConnectionEstablisherC4pathSSvp",
+            "mangledName": "$s9MyLibrary33MainDatabaseConnectionEstablisherC4pathSSvp",
+            "moduleName": "MyLibrary",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:9MyLibrary33MainDatabaseConnectionEstablisherC4pathSSvg",
+                "mangledName": "$s9MyLibrary33MainDatabaseConnectionEstablisherC4pathSSvg",
+                "moduleName": "MyLibrary",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:9MyLibrary33MainDatabaseConnectionEstablisherC4pathSSvs",
+                "mangledName": "$s9MyLibrary33MainDatabaseConnectionEstablisherC4pathSSvs",
+                "moduleName": "MyLibrary",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:9MyLibrary33MainDatabaseConnectionEstablisherC4pathSSvM",
+                "mangledName": "$s9MyLibrary33MainDatabaseConnectionEstablisherC4pathSSvM",
+                "moduleName": "MyLibrary",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "MainDatabaseConnectionEstablisher",
+                "printedName": "MyLibrary.MainDatabaseConnectionEstablisher",
+                "usr": "s:9MyLibrary33MainDatabaseConnectionEstablisherC"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:9MyLibrary33MainDatabaseConnectionEstablisherCACycfc",
+            "mangledName": "$s9MyLibrary33MainDatabaseConnectionEstablisherCACycfc",
+            "moduleName": "MyLibrary",
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Function",
+            "name": "restart",
+            "printedName": "restart()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:9MyLibrary33MainDatabaseConnectionEstablisherC7restartyyF",
+            "mangledName": "$s9MyLibrary33MainDatabaseConnectionEstablisherC7restartyyF",
+            "moduleName": "MyLibrary",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "executeQuery",
+            "printedName": "executeQuery(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Tuple",
+                "printedName": "(Swift.Bool, [[Swift.String : Swift.String]]?)",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "[[Swift.String : Swift.String]]?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Array",
+                        "printedName": "[[Swift.String : Swift.String]]",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Dictionary",
+                            "printedName": "[Swift.String : Swift.String]",
+                            "children": [
+                              {
+                                "kind": "TypeNominal",
+                                "name": "String",
+                                "printedName": "Swift.String",
+                                "usr": "s:SS"
+                              },
+                              {
+                                "kind": "TypeNominal",
+                                "name": "String",
+                                "printedName": "Swift.String",
+                                "usr": "s:SS"
+                              }
+                            ],
+                            "usr": "s:SD"
+                          }
+                        ],
+                        "usr": "s:Sa"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ]
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:9MyLibrary33MainDatabaseConnectionEstablisherC12executeQueryySb_SaySDyS2SGGSgtSSF",
+            "mangledName": "$s9MyLibrary33MainDatabaseConnectionEstablisherC12executeQueryySb_SaySDyS2SGGSgtSSF",
+            "moduleName": "MyLibrary",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "s:9MyLibrary33MainDatabaseConnectionEstablisherC",
+        "mangledName": "$s9MyLibrary33MainDatabaseConnectionEstablisherC",
+        "moduleName": "MyLibrary",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          }
+        ]
+      },
+      {
+        "kind": "Var",
+        "name": "FQL",
+        "printedName": "FQL",
+        "children": [
+          {
+            "kind": "TypeNominal",
+            "name": "MainDatabaseConnectionEstablisher",
+            "printedName": "MyLibrary.MainDatabaseConnectionEstablisher",
+            "usr": "s:9MyLibrary33MainDatabaseConnectionEstablisherC"
+          }
+        ],
+        "declKind": "Var",
+        "usr": "s:9MyLibrary3FQLAA33MainDatabaseConnectionEstablisherCvp",
+        "mangledName": "$s9MyLibrary3FQLAA33MainDatabaseConnectionEstablisherCvp",
+        "moduleName": "MyLibrary",
+        "declAttributes": [
+          "HasInitialValue",
+          "HasStorage",
+          "AccessControl"
+        ],
+        "hasStorage": true,
+        "accessors": [
+          {
+            "kind": "Accessor",
+            "name": "Get",
+            "printedName": "Get()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "MainDatabaseConnectionEstablisher",
+                "printedName": "MyLibrary.MainDatabaseConnectionEstablisher",
+                "usr": "s:9MyLibrary33MainDatabaseConnectionEstablisherC"
+              }
+            ],
+            "declKind": "Accessor",
+            "usr": "s:9MyLibrary3FQLAA33MainDatabaseConnectionEstablisherCvg",
+            "mangledName": "$s9MyLibrary3FQLAA33MainDatabaseConnectionEstablisherCvg",
+            "moduleName": "MyLibrary",
+            "implicit": true,
+            "accessorKind": "get"
+          },
+          {
+            "kind": "Accessor",
+            "name": "Set",
+            "printedName": "Set()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "MainDatabaseConnectionEstablisher",
+                "printedName": "MyLibrary.MainDatabaseConnectionEstablisher",
+                "usr": "s:9MyLibrary33MainDatabaseConnectionEstablisherC"
+              }
+            ],
+            "declKind": "Accessor",
+            "usr": "s:9MyLibrary3FQLAA33MainDatabaseConnectionEstablisherCvs",
+            "mangledName": "$s9MyLibrary3FQLAA33MainDatabaseConnectionEstablisherCvs",
+            "moduleName": "MyLibrary",
+            "implicit": true,
+            "accessorKind": "set"
+          },
+          {
+            "kind": "Accessor",
+            "name": "Modify",
+            "printedName": "Modify()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Accessor",
+            "usr": "s:9MyLibrary3FQLAA33MainDatabaseConnectionEstablisherCvM",
+            "mangledName": "$s9MyLibrary3FQLAA33MainDatabaseConnectionEstablisherCvM",
+            "moduleName": "MyLibrary",
+            "implicit": true,
+            "accessorKind": "_modify"
+          }
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "DatabaseConnectionEstablisher",
+        "printedName": "DatabaseConnectionEstablisher",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "db",
+            "printedName": "db",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.OpaquePointer?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "OpaquePointer",
+                    "printedName": "Swift.OpaquePointer",
+                    "usr": "s:s13OpaquePointerV"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:9MyLibrary29DatabaseConnectionEstablisherC2dbs13OpaquePointerVSgvp",
+            "mangledName": "$s9MyLibrary29DatabaseConnectionEstablisherC2dbs13OpaquePointerVSgvp",
+            "moduleName": "MyLibrary",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.OpaquePointer?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "OpaquePointer",
+                        "printedName": "Swift.OpaquePointer",
+                        "usr": "s:s13OpaquePointerV"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:9MyLibrary29DatabaseConnectionEstablisherC2dbs13OpaquePointerVSgvg",
+                "mangledName": "$s9MyLibrary29DatabaseConnectionEstablisherC2dbs13OpaquePointerVSgvg",
+                "moduleName": "MyLibrary",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.OpaquePointer?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "OpaquePointer",
+                        "printedName": "Swift.OpaquePointer",
+                        "usr": "s:s13OpaquePointerV"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:9MyLibrary29DatabaseConnectionEstablisherC2dbs13OpaquePointerVSgvs",
+                "mangledName": "$s9MyLibrary29DatabaseConnectionEstablisherC2dbs13OpaquePointerVSgvs",
+                "moduleName": "MyLibrary",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:9MyLibrary29DatabaseConnectionEstablisherC2dbs13OpaquePointerVSgvM",
+                "mangledName": "$s9MyLibrary29DatabaseConnectionEstablisherC2dbs13OpaquePointerVSgvM",
+                "moduleName": "MyLibrary",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "path",
+            "printedName": "path",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:9MyLibrary29DatabaseConnectionEstablisherC4pathSSvp",
+            "mangledName": "$s9MyLibrary29DatabaseConnectionEstablisherC4pathSSvp",
+            "moduleName": "MyLibrary",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:9MyLibrary29DatabaseConnectionEstablisherC4pathSSvg",
+                "mangledName": "$s9MyLibrary29DatabaseConnectionEstablisherC4pathSSvg",
+                "moduleName": "MyLibrary",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:9MyLibrary29DatabaseConnectionEstablisherC4pathSSvs",
+                "mangledName": "$s9MyLibrary29DatabaseConnectionEstablisherC4pathSSvs",
+                "moduleName": "MyLibrary",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:9MyLibrary29DatabaseConnectionEstablisherC4pathSSvM",
+                "mangledName": "$s9MyLibrary29DatabaseConnectionEstablisherC4pathSSvM",
+                "moduleName": "MyLibrary",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "DatabaseConnectionEstablisher",
+                "printedName": "MyLibrary.DatabaseConnectionEstablisher",
+                "usr": "s:9MyLibrary29DatabaseConnectionEstablisherC"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:9MyLibrary29DatabaseConnectionEstablisherCACycfc",
+            "mangledName": "$s9MyLibrary29DatabaseConnectionEstablisherCACycfc",
+            "moduleName": "MyLibrary",
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Function",
+            "name": "restart",
+            "printedName": "restart()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:9MyLibrary29DatabaseConnectionEstablisherC7restartyyF",
+            "mangledName": "$s9MyLibrary29DatabaseConnectionEstablisherC7restartyyF",
+            "moduleName": "MyLibrary",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "executeQuery",
+            "printedName": "executeQuery(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Tuple",
+                "printedName": "(Swift.Bool, [[Swift.String : Swift.String]]?)",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "[[Swift.String : Swift.String]]?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Array",
+                        "printedName": "[[Swift.String : Swift.String]]",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Dictionary",
+                            "printedName": "[Swift.String : Swift.String]",
+                            "children": [
+                              {
+                                "kind": "TypeNominal",
+                                "name": "String",
+                                "printedName": "Swift.String",
+                                "usr": "s:SS"
+                              },
+                              {
+                                "kind": "TypeNominal",
+                                "name": "String",
+                                "printedName": "Swift.String",
+                                "usr": "s:SS"
+                              }
+                            ],
+                            "usr": "s:SD"
+                          }
+                        ],
+                        "usr": "s:Sa"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ]
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:9MyLibrary29DatabaseConnectionEstablisherC12executeQueryySb_SaySDyS2SGGSgtSSF",
+            "mangledName": "$s9MyLibrary29DatabaseConnectionEstablisherC12executeQueryySb_SaySDyS2SGGSgtSSF",
+            "moduleName": "MyLibrary",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "s:9MyLibrary29DatabaseConnectionEstablisherC",
+        "mangledName": "$s9MyLibrary29DatabaseConnectionEstablisherC",
+        "moduleName": "MyLibrary",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          }
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "DevOpsConnectionEstablisher",
+        "printedName": "DevOpsConnectionEstablisher",
+        "children": [
+          {
+            "kind": "Function",
+            "name": "restart",
+            "printedName": "restart()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:9MyLibrary27DevOpsConnectionEstablisherC7restartyyF",
+            "mangledName": "$s9MyLibrary27DevOpsConnectionEstablisherC7restartyyF",
+            "moduleName": "MyLibrary",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "executeQuery",
+            "printedName": "executeQuery(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Tuple",
+                "printedName": "(Swift.Bool, [[Swift.String : Swift.String]]?)",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "[[Swift.String : Swift.String]]?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Array",
+                        "printedName": "[[Swift.String : Swift.String]]",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Dictionary",
+                            "printedName": "[Swift.String : Swift.String]",
+                            "children": [
+                              {
+                                "kind": "TypeNominal",
+                                "name": "String",
+                                "printedName": "Swift.String",
+                                "usr": "s:SS"
+                              },
+                              {
+                                "kind": "TypeNominal",
+                                "name": "String",
+                                "printedName": "Swift.String",
+                                "usr": "s:SS"
+                              }
+                            ],
+                            "usr": "s:SD"
+                          }
+                        ],
+                        "usr": "s:Sa"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ]
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:9MyLibrary27DevOpsConnectionEstablisherC12executeQueryySb_SaySDyS2SGGSgtSSF",
+            "mangledName": "$s9MyLibrary27DevOpsConnectionEstablisherC12executeQueryySb_SaySDyS2SGGSgtSSF",
+            "moduleName": "MyLibrary",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "select",
+            "printedName": "select(_:file:line:ErrorHandling:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "[Swift.String : Swift.String]?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Dictionary",
+                    "printedName": "[Swift.String : Swift.String]",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:SD"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "hasDefaultArg": true,
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "hasDefaultArg": true,
+                "usr": "s:Si"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "hasDefaultArg": true,
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:9MyLibrary27DevOpsConnectionEstablisherC6select_4file4line13ErrorHandlingSDyS2SGSgSS_SSSiSbtF",
+            "mangledName": "$s9MyLibrary27DevOpsConnectionEstablisherC6select_4file4line13ErrorHandlingSDyS2SGSgSS_SSSiSbtF",
+            "moduleName": "MyLibrary",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "s:9MyLibrary27DevOpsConnectionEstablisherC",
+        "mangledName": "$s9MyLibrary27DevOpsConnectionEstablisherC",
+        "moduleName": "MyLibrary",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "hasMissingDesignatedInitializers": true,
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          }
+        ]
+      },
+      {
+        "kind": "Var",
+        "name": "DevOps",
+        "printedName": "DevOps",
+        "children": [
+          {
+            "kind": "TypeNominal",
+            "name": "DevOpsConnectionEstablisher",
+            "printedName": "MyLibrary.DevOpsConnectionEstablisher",
+            "usr": "s:9MyLibrary27DevOpsConnectionEstablisherC"
+          }
+        ],
+        "declKind": "Var",
+        "usr": "s:9MyLibrary6DevOpsAA0cD21ConnectionEstablisherCvp",
+        "mangledName": "$s9MyLibrary6DevOpsAA0cD21ConnectionEstablisherCvp",
+        "moduleName": "MyLibrary",
+        "declAttributes": [
+          "HasInitialValue",
+          "HasStorage",
+          "AccessControl"
+        ],
+        "hasStorage": true,
+        "accessors": [
+          {
+            "kind": "Accessor",
+            "name": "Get",
+            "printedName": "Get()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "DevOpsConnectionEstablisher",
+                "printedName": "MyLibrary.DevOpsConnectionEstablisher",
+                "usr": "s:9MyLibrary27DevOpsConnectionEstablisherC"
+              }
+            ],
+            "declKind": "Accessor",
+            "usr": "s:9MyLibrary6DevOpsAA0cD21ConnectionEstablisherCvg",
+            "mangledName": "$s9MyLibrary6DevOpsAA0cD21ConnectionEstablisherCvg",
+            "moduleName": "MyLibrary",
+            "implicit": true,
+            "accessorKind": "get"
+          },
+          {
+            "kind": "Accessor",
+            "name": "Set",
+            "printedName": "Set()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "DevOpsConnectionEstablisher",
+                "printedName": "MyLibrary.DevOpsConnectionEstablisher",
+                "usr": "s:9MyLibrary27DevOpsConnectionEstablisherC"
+              }
+            ],
+            "declKind": "Accessor",
+            "usr": "s:9MyLibrary6DevOpsAA0cD21ConnectionEstablisherCvs",
+            "mangledName": "$s9MyLibrary6DevOpsAA0cD21ConnectionEstablisherCvs",
+            "moduleName": "MyLibrary",
+            "implicit": true,
+            "accessorKind": "set"
+          },
+          {
+            "kind": "Accessor",
+            "name": "Modify",
+            "printedName": "Modify()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Accessor",
+            "usr": "s:9MyLibrary6DevOpsAA0cD21ConnectionEstablisherCvM",
+            "mangledName": "$s9MyLibrary6DevOpsAA0cD21ConnectionEstablisherCvM",
+            "moduleName": "MyLibrary",
+            "implicit": true,
+            "accessorKind": "_modify"
+          }
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "DeviceFingerprintConnectionEstablisher",
+        "printedName": "DeviceFingerprintConnectionEstablisher",
+        "children": [
+          {
+            "kind": "Function",
+            "name": "restart",
+            "printedName": "restart()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:9MyLibrary38DeviceFingerprintConnectionEstablisherC7restartyyF",
+            "mangledName": "$s9MyLibrary38DeviceFingerprintConnectionEstablisherC7restartyyF",
+            "moduleName": "MyLibrary",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "executeQuery",
+            "printedName": "executeQuery(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Tuple",
+                "printedName": "(Swift.Bool, [[Swift.String : Swift.String]]?)",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "[[Swift.String : Swift.String]]?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Array",
+                        "printedName": "[[Swift.String : Swift.String]]",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Dictionary",
+                            "printedName": "[Swift.String : Swift.String]",
+                            "children": [
+                              {
+                                "kind": "TypeNominal",
+                                "name": "String",
+                                "printedName": "Swift.String",
+                                "usr": "s:SS"
+                              },
+                              {
+                                "kind": "TypeNominal",
+                                "name": "String",
+                                "printedName": "Swift.String",
+                                "usr": "s:SS"
+                              }
+                            ],
+                            "usr": "s:SD"
+                          }
+                        ],
+                        "usr": "s:Sa"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ]
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:9MyLibrary38DeviceFingerprintConnectionEstablisherC12executeQueryySb_SaySDyS2SGGSgtSSF",
+            "mangledName": "$s9MyLibrary38DeviceFingerprintConnectionEstablisherC12executeQueryySb_SaySDyS2SGGSgtSSF",
+            "moduleName": "MyLibrary",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "reset",
+            "printedName": "reset(line:file:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "hasDefaultArg": true,
+                "usr": "s:Si"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "hasDefaultArg": true,
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:9MyLibrary38DeviceFingerprintConnectionEstablisherC5reset4line4fileSbSi_SStF",
+            "mangledName": "$s9MyLibrary38DeviceFingerprintConnectionEstablisherC5reset4line4fileSbSi_SStF",
+            "moduleName": "MyLibrary",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "select",
+            "printedName": "select(_:file:line:ErrorHandling:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "[Swift.String : Swift.String]?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Dictionary",
+                    "printedName": "[Swift.String : Swift.String]",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:SD"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "hasDefaultArg": true,
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "hasDefaultArg": true,
+                "usr": "s:Si"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "hasDefaultArg": true,
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:9MyLibrary38DeviceFingerprintConnectionEstablisherC6select_4file4line13ErrorHandlingSDyS2SGSgSS_SSSiSbtF",
+            "mangledName": "$s9MyLibrary38DeviceFingerprintConnectionEstablisherC6select_4file4line13ErrorHandlingSDyS2SGSgSS_SSSiSbtF",
+            "moduleName": "MyLibrary",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "s:9MyLibrary38DeviceFingerprintConnectionEstablisherC",
+        "mangledName": "$s9MyLibrary38DeviceFingerprintConnectionEstablisherC",
+        "moduleName": "MyLibrary",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "hasMissingDesignatedInitializers": true,
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          }
+        ]
+      },
+      {
+        "kind": "Var",
+        "name": "DF",
+        "printedName": "DF",
+        "children": [
+          {
+            "kind": "TypeNominal",
+            "name": "DeviceFingerprintConnectionEstablisher",
+            "printedName": "MyLibrary.DeviceFingerprintConnectionEstablisher",
+            "usr": "s:9MyLibrary38DeviceFingerprintConnectionEstablisherC"
+          }
+        ],
+        "declKind": "Var",
+        "usr": "s:9MyLibrary2DFAA38DeviceFingerprintConnectionEstablisherCvp",
+        "mangledName": "$s9MyLibrary2DFAA38DeviceFingerprintConnectionEstablisherCvp",
+        "moduleName": "MyLibrary",
+        "declAttributes": [
+          "HasInitialValue",
+          "HasStorage",
+          "AccessControl"
+        ],
+        "hasStorage": true,
+        "accessors": [
+          {
+            "kind": "Accessor",
+            "name": "Get",
+            "printedName": "Get()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "DeviceFingerprintConnectionEstablisher",
+                "printedName": "MyLibrary.DeviceFingerprintConnectionEstablisher",
+                "usr": "s:9MyLibrary38DeviceFingerprintConnectionEstablisherC"
+              }
+            ],
+            "declKind": "Accessor",
+            "usr": "s:9MyLibrary2DFAA38DeviceFingerprintConnectionEstablisherCvg",
+            "mangledName": "$s9MyLibrary2DFAA38DeviceFingerprintConnectionEstablisherCvg",
+            "moduleName": "MyLibrary",
+            "implicit": true,
+            "accessorKind": "get"
+          },
+          {
+            "kind": "Accessor",
+            "name": "Set",
+            "printedName": "Set()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "DeviceFingerprintConnectionEstablisher",
+                "printedName": "MyLibrary.DeviceFingerprintConnectionEstablisher",
+                "usr": "s:9MyLibrary38DeviceFingerprintConnectionEstablisherC"
+              }
+            ],
+            "declKind": "Accessor",
+            "usr": "s:9MyLibrary2DFAA38DeviceFingerprintConnectionEstablisherCvs",
+            "mangledName": "$s9MyLibrary2DFAA38DeviceFingerprintConnectionEstablisherCvs",
+            "moduleName": "MyLibrary",
+            "implicit": true,
+            "accessorKind": "set"
+          },
+          {
+            "kind": "Accessor",
+            "name": "Modify",
+            "printedName": "Modify()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Accessor",
+            "usr": "s:9MyLibrary2DFAA38DeviceFingerprintConnectionEstablisherCvM",
+            "mangledName": "$s9MyLibrary2DFAA38DeviceFingerprintConnectionEstablisherCvM",
+            "moduleName": "MyLibrary",
+            "implicit": true,
+            "accessorKind": "_modify"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "MyLibrary",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Function",
+        "name": "cl",
+        "printedName": "cl(_:_:type:line:function:file:)",
+        "children": [
+          {
+            "kind": "TypeNominal",
+            "name": "Void",
+            "printedName": "()"
+          },
+          {
+            "kind": "TypeNominal",
+            "name": "Optional",
+            "printedName": "Any?",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "ProtocolComposition",
+                "printedName": "Any"
+              }
+            ],
+            "hasDefaultArg": true,
+            "usr": "s:Sq"
+          },
+          {
+            "kind": "TypeNominal",
+            "name": "GenericTypeParam",
+            "printedName": "τ_0_0",
+            "hasDefaultArg": true
+          },
+          {
+            "kind": "TypeNominal",
+            "name": "String",
+            "printedName": "Swift.String",
+            "hasDefaultArg": true,
+            "usr": "s:SS"
+          },
+          {
+            "kind": "TypeNominal",
+            "name": "Int",
+            "printedName": "Swift.Int",
+            "hasDefaultArg": true,
+            "usr": "s:Si"
+          },
+          {
+            "kind": "TypeNominal",
+            "name": "String",
+            "printedName": "Swift.String",
+            "hasDefaultArg": true,
+            "usr": "s:SS"
+          },
+          {
+            "kind": "TypeNominal",
+            "name": "String",
+            "printedName": "Swift.String",
+            "hasDefaultArg": true,
+            "usr": "s:SS"
+          }
+        ],
+        "declKind": "Func",
+        "usr": "s:9MyLibrary2cl__4type4line8function4fileyypSg_xSSSiS2StlF",
+        "mangledName": "$s9MyLibrary2cl__4type4line8function4fileyypSg_xSSSiS2StlF",
+        "moduleName": "MyLibrary",
+        "genericSig": "<τ_0_0>",
+        "sugared_genericSig": "<T>",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "funcSelfKind": "NonMutating"
+      },
+      {
+        "kind": "Function",
+        "name": "cl",
+        "printedName": "cl(_:type:line:function:file:)",
+        "children": [
+          {
+            "kind": "TypeNominal",
+            "name": "Void",
+            "printedName": "()"
+          },
+          {
+            "kind": "TypeNominal",
+            "name": "GenericTypeParam",
+            "printedName": "τ_0_0",
+            "hasDefaultArg": true
+          },
+          {
+            "kind": "TypeNominal",
+            "name": "String",
+            "printedName": "Swift.String",
+            "hasDefaultArg": true,
+            "usr": "s:SS"
+          },
+          {
+            "kind": "TypeNominal",
+            "name": "Int",
+            "printedName": "Swift.Int",
+            "hasDefaultArg": true,
+            "usr": "s:Si"
+          },
+          {
+            "kind": "TypeNominal",
+            "name": "String",
+            "printedName": "Swift.String",
+            "hasDefaultArg": true,
+            "usr": "s:SS"
+          },
+          {
+            "kind": "TypeNominal",
+            "name": "String",
+            "printedName": "Swift.String",
+            "hasDefaultArg": true,
+            "usr": "s:SS"
+          }
+        ],
+        "declKind": "Func",
+        "usr": "s:9MyLibrary2cl_4type4line8function4fileyx_SSSiS2StlF",
+        "mangledName": "$s9MyLibrary2cl_4type4line8function4fileyx_SSSiS2StlF",
+        "moduleName": "MyLibrary",
+        "genericSig": "<τ_0_0>",
+        "sugared_genericSig": "<T>",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "funcSelfKind": "NonMutating"
+      },
+      {
+        "kind": "Function",
+        "name": "SQLiteEngineStrater",
+        "printedName": "SQLiteEngineStrater()",
+        "children": [
+          {
+            "kind": "TypeNominal",
+            "name": "Void",
+            "printedName": "()"
+          }
+        ],
+        "declKind": "Func",
+        "usr": "s:9MyLibrary19SQLiteEngineStrateryyF",
+        "mangledName": "$s9MyLibrary19SQLiteEngineStrateryyF",
+        "moduleName": "MyLibrary",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "funcSelfKind": "NonMutating"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "SqlTracker",
+        "printedName": "SqlTracker",
+        "declKind": "Class",
+        "usr": "s:9MyLibrary10SqlTrackerC",
+        "mangledName": "$s9MyLibrary10SqlTrackerC",
+        "moduleName": "MyLibrary",
+        "declAttributes": [
+          "AccessControl",
+          "RawDocComment"
+        ],
+        "hasMissingDesignatedInitializers": true,
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          }
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "SQLize",
+        "printedName": "SQLize",
+        "children": [
+          {
+            "kind": "Function",
+            "name": "read",
+            "printedName": "read(_:_:_:_:file:line:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "[Swift.String : Swift.String]?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Dictionary",
+                    "printedName": "[Swift.String : Swift.String]",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:SD"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "hasDefaultArg": true,
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "hasDefaultArg": true,
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "hasDefaultArg": true,
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "hasDefaultArg": true,
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:9MyLibrary6SQLizeC4read____4file4lineSDyS2SGSgSS_S4SSitF",
+            "mangledName": "$s9MyLibrary6SQLizeC4read____4file4lineSDyS2SGSgSS_S4SSitF",
+            "moduleName": "MyLibrary",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "readRowByRow",
+            "printedName": "readRowByRow(_:_:_:_:file:line:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "[Swift.String : Swift.String]?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Dictionary",
+                    "printedName": "[Swift.String : Swift.String]",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:SD"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "hasDefaultArg": true,
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "hasDefaultArg": true,
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "hasDefaultArg": true,
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "hasDefaultArg": true,
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:9MyLibrary6SQLizeC09readRowByE0____4file4lineSDyS2SGSgSS_S4SSitF",
+            "mangledName": "$s9MyLibrary6SQLizeC09readRowByE0____4file4lineSDyS2SGSgSS_S4SSitF",
+            "moduleName": "MyLibrary",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "debug",
+            "printedName": "debug(line:tag:file:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "MyLibrary.SqlTracker?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "SqlTracker",
+                    "printedName": "MyLibrary.SqlTracker",
+                    "usr": "s:9MyLibrary10SqlTrackerC"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "hasDefaultArg": true,
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "hasDefaultArg": true,
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:9MyLibrary6SQLizeC5debug4line3tag4fileAA10SqlTrackerCSgSi_S2StF",
+            "mangledName": "$s9MyLibrary6SQLizeC5debug4line3tag4fileAA10SqlTrackerCSgSi_S2StF",
+            "moduleName": "MyLibrary",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "update",
+            "printedName": "update(tableName:_:localcounti:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Tuple",
+                "printedName": "(counti: Swift.Int, success: Swift.Bool, selectQuery: Swift.String)",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ]
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Dictionary",
+                "printedName": "[Swift.String : Swift.String]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:SD"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:9MyLibrary6SQLizeC6update9tableName_11localcountiSi6counti_Sb7successSS11selectQuerytSS_SDyS2SGSStF",
+            "mangledName": "$s9MyLibrary6SQLizeC6update9tableName_11localcountiSi6counti_Sb7successSS11selectQuerytSS_SDyS2SGSStF",
+            "moduleName": "MyLibrary",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "reset",
+            "printedName": "reset(line:file:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "hasDefaultArg": true,
+                "usr": "s:Si"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "hasDefaultArg": true,
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:9MyLibrary6SQLizeC5reset4line4fileSbSi_SStF",
+            "mangledName": "$s9MyLibrary6SQLizeC5reset4line4fileSbSi_SStF",
+            "moduleName": "MyLibrary",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "insert",
+            "printedName": "insert(_:_:fileName:line:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Tuple",
+                "printedName": "(counti: Swift.Int, success: Swift.Bool, newlyinserted: Swift.Bool, query: Swift.String)",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ]
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Dictionary",
+                "printedName": "[Swift.String : Swift.String]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:SD"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "hasDefaultArg": true,
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "hasDefaultArg": true,
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:9MyLibrary6SQLizeC6insert__8fileName4lineSi6counti_Sb7successSb13newlyinsertedSS5querytSS_SDyS2SGSSSitF",
+            "mangledName": "$s9MyLibrary6SQLizeC6insert__8fileName4lineSi6counti_Sb7successSb13newlyinsertedSS5querytSS_SDyS2SGSSSitF",
+            "moduleName": "MyLibrary",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "select",
+            "printedName": "select(_:file:line:ErrorHandling:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "[Swift.String : Swift.String]?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Dictionary",
+                    "printedName": "[Swift.String : Swift.String]",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:SD"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "hasDefaultArg": true,
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "hasDefaultArg": true,
+                "usr": "s:Si"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "hasDefaultArg": true,
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:9MyLibrary6SQLizeC6select_4file4line13ErrorHandlingSDyS2SGSgSS_SSSiSbtF",
+            "mangledName": "$s9MyLibrary6SQLizeC6select_4file4line13ErrorHandlingSDyS2SGSgSS_SSSiSbtF",
+            "moduleName": "MyLibrary",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "freeInsert",
+            "printedName": "freeInsert(_:_:fileName:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Tuple",
+                "printedName": "(counti: Swift.Int, success: Swift.Bool, query: Swift.String)",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ]
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Dictionary",
+                "printedName": "[Swift.String : Swift.String]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:SD"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "hasDefaultArg": true,
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:9MyLibrary6SQLizeC10freeInsert__8fileNameSi6counti_Sb7successSS5querytSS_SDyS2SGSStF",
+            "mangledName": "$s9MyLibrary6SQLizeC10freeInsert__8fileNameSi6counti_Sb7successSS5querytSS_SDyS2SGSStF",
+            "moduleName": "MyLibrary",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "delete",
+            "printedName": "delete(_:_:fileName:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Tuple",
+                "printedName": "(count: Swift.Int, success: Swift.Bool, query: Swift.String)",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ]
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "hasDefaultArg": true,
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:9MyLibrary6SQLizeC6delete__8fileNameSi5count_Sb7successSS5querytSS_S2StF",
+            "mangledName": "$s9MyLibrary6SQLizeC6delete__8fileNameSi5count_Sb7successSS5querytSS_S2StF",
+            "moduleName": "MyLibrary",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "end",
+            "printedName": "end(_:_:fileName:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Tuple",
+                "printedName": "(count: Swift.Int, success: Swift.Bool, query: Swift.String)",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ]
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "hasDefaultArg": true,
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:9MyLibrary6SQLizeC3end__8fileNameSi5count_Sb7successSS5querytSS_S2StF",
+            "mangledName": "$s9MyLibrary6SQLizeC3end__8fileNameSi5count_Sb7successSS5querytSS_S2StF",
+            "moduleName": "MyLibrary",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "ivc",
+            "printedName": "ivc(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:9MyLibrary6SQLizeC3ivcyS2SF",
+            "mangledName": "$s9MyLibrary6SQLizeC3ivcyS2SF",
+            "moduleName": "MyLibrary",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "getPid",
+            "printedName": "getPid(filename:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:9MyLibrary6SQLizeC6getPid8filenameS2S_tF",
+            "mangledName": "$s9MyLibrary6SQLizeC6getPid8filenameS2S_tF",
+            "moduleName": "MyLibrary",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "segregateAndPrintCounti",
+            "printedName": "segregateAndPrintCounti(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Tuple",
+                "printedName": "(Swift.Bool, Any?)",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Any?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ProtocolComposition",
+                        "printedName": "Any"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ]
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:9MyLibrary6SQLizeC23segregateAndPrintCountiySiSb_ypSgt_tF",
+            "mangledName": "$s9MyLibrary6SQLizeC23segregateAndPrintCountiySiSb_ypSgt_tF",
+            "moduleName": "MyLibrary",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "generateSelectQuery",
+            "printedName": "generateSelectQuery(tableName:data:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Dictionary",
+                "printedName": "[Swift.String : Any]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ProtocolComposition",
+                    "printedName": "Any"
+                  }
+                ],
+                "usr": "s:SD"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:9MyLibrary6SQLizeC19generateSelectQuery9tableName4dataS2S_SDySSypGtF",
+            "mangledName": "$s9MyLibrary6SQLizeC19generateSelectQuery9tableName4dataS2S_SDySSypGtF",
+            "moduleName": "MyLibrary",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "SQLize",
+                "printedName": "MyLibrary.SQLize",
+                "usr": "s:9MyLibrary6SQLizeC"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:9MyLibrary6SQLizeCACycfc",
+            "mangledName": "$s9MyLibrary6SQLizeCACycfc",
+            "moduleName": "MyLibrary",
+            "overriding": true,
+            "implicit": true,
+            "declAttributes": [
+              "Override"
+            ],
+            "init_kind": "Designated"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "s:9MyLibrary6SQLizeC",
+        "mangledName": "$s9MyLibrary6SQLizeC",
+        "moduleName": "MyLibrary",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "superclassUsr": "s:9MyLibrary29DatabaseConnectionEstablisherC",
+        "inheritsConvenienceInitializers": true,
+        "superclassNames": [
+          "MyLibrary.DatabaseConnectionEstablisher"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          }
+        ]
+      },
+      {
+        "kind": "Var",
+        "name": "sql",
+        "printedName": "sql",
+        "children": [
+          {
+            "kind": "TypeNominal",
+            "name": "SQLize",
+            "printedName": "MyLibrary.SQLize",
+            "usr": "s:9MyLibrary6SQLizeC"
+          }
+        ],
+        "declKind": "Var",
+        "usr": "s:9MyLibrary3sqlAA6SQLizeCvp",
+        "mangledName": "$s9MyLibrary3sqlAA6SQLizeCvp",
+        "moduleName": "MyLibrary",
+        "declAttributes": [
+          "HasInitialValue",
+          "HasStorage",
+          "AccessControl"
+        ],
+        "hasStorage": true,
+        "accessors": [
+          {
+            "kind": "Accessor",
+            "name": "Get",
+            "printedName": "Get()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "SQLize",
+                "printedName": "MyLibrary.SQLize",
+                "usr": "s:9MyLibrary6SQLizeC"
+              }
+            ],
+            "declKind": "Accessor",
+            "usr": "s:9MyLibrary3sqlAA6SQLizeCvg",
+            "mangledName": "$s9MyLibrary3sqlAA6SQLizeCvg",
+            "moduleName": "MyLibrary",
+            "implicit": true,
+            "accessorKind": "get"
+          },
+          {
+            "kind": "Accessor",
+            "name": "Set",
+            "printedName": "Set()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "SQLize",
+                "printedName": "MyLibrary.SQLize",
+                "usr": "s:9MyLibrary6SQLizeC"
+              }
+            ],
+            "declKind": "Accessor",
+            "usr": "s:9MyLibrary3sqlAA6SQLizeCvs",
+            "mangledName": "$s9MyLibrary3sqlAA6SQLizeCvs",
+            "moduleName": "MyLibrary",
+            "implicit": true,
+            "accessorKind": "set"
+          },
+          {
+            "kind": "Accessor",
+            "name": "Modify",
+            "printedName": "Modify()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Accessor",
+            "usr": "s:9MyLibrary3sqlAA6SQLizeCvM",
+            "mangledName": "$s9MyLibrary3sqlAA6SQLizeCvM",
+            "moduleName": "MyLibrary",
+            "implicit": true,
+            "accessorKind": "_modify"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "MyLibrary",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "MyLibrary",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Function",
+        "name": "str_replace",
+        "printedName": "str_replace(_:_:in:)",
+        "children": [
+          {
+            "kind": "TypeNominal",
+            "name": "String",
+            "printedName": "Swift.String",
+            "usr": "s:SS"
+          },
+          {
+            "kind": "TypeNominal",
+            "name": "String",
+            "printedName": "Swift.String",
+            "usr": "s:SS"
+          },
+          {
+            "kind": "TypeNominal",
+            "name": "String",
+            "printedName": "Swift.String",
+            "usr": "s:SS"
+          },
+          {
+            "kind": "TypeNominal",
+            "name": "String",
+            "printedName": "Swift.String",
+            "usr": "s:SS"
+          }
+        ],
+        "declKind": "Func",
+        "usr": "s:9MyLibrary11str_replace__2inS2S_S2StF",
+        "mangledName": "$s9MyLibrary11str_replace__2inS2S_S2StF",
+        "moduleName": "MyLibrary",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "funcSelfKind": "NonMutating"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "MyLibrary",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "SwiftUI",
+        "printedName": "SwiftUI",
+        "declKind": "Import",
+        "moduleName": "MyLibrary"
+      },
+      {
+        "kind": "Function",
+        "name": "Notify",
+        "printedName": "Notify(UID:msg:)",
+        "children": [
+          {
+            "kind": "TypeNominal",
+            "name": "Void",
+            "printedName": "()"
+          },
+          {
+            "kind": "TypeNominal",
+            "name": "String",
+            "printedName": "Swift.String",
+            "usr": "s:SS"
+          },
+          {
+            "kind": "TypeNominal",
+            "name": "String",
+            "printedName": "Swift.String",
+            "usr": "s:SS"
+          }
+        ],
+        "declKind": "Func",
+        "usr": "s:9MyLibrary6Notify3UID3msgySS_SStF",
+        "mangledName": "$s9MyLibrary6Notify3UID3msgySS_SStF",
+        "moduleName": "MyLibrary",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "funcSelfKind": "NonMutating"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "MyLibrary",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Function",
+        "name": "getDate",
+        "printedName": "getDate()",
+        "children": [
+          {
+            "kind": "TypeNominal",
+            "name": "String",
+            "printedName": "Swift.String",
+            "usr": "s:SS"
+          }
+        ],
+        "declKind": "Func",
+        "usr": "s:9MyLibrary7getDateSSyF",
+        "mangledName": "$s9MyLibrary7getDateSSyF",
+        "moduleName": "MyLibrary",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "funcSelfKind": "NonMutating"
+      },
+      {
+        "kind": "Function",
+        "name": "getTime",
+        "printedName": "getTime()",
+        "children": [
+          {
+            "kind": "TypeNominal",
+            "name": "String",
+            "printedName": "Swift.String",
+            "usr": "s:SS"
+          }
+        ],
+        "declKind": "Func",
+        "usr": "s:9MyLibrary7getTimeSSyF",
+        "mangledName": "$s9MyLibrary7getTimeSSyF",
+        "moduleName": "MyLibrary",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "funcSelfKind": "NonMutating"
+      },
+      {
+        "kind": "Function",
+        "name": "formatDate",
+        "printedName": "formatDate(_:)",
+        "children": [
+          {
+            "kind": "TypeNominal",
+            "name": "String",
+            "printedName": "Swift.String",
+            "usr": "s:SS"
+          },
+          {
+            "kind": "TypeNominal",
+            "name": "String",
+            "printedName": "Swift.String",
+            "usr": "s:SS"
+          }
+        ],
+        "declKind": "Func",
+        "usr": "s:9MyLibrary10formatDateyS2SF",
+        "mangledName": "$s9MyLibrary10formatDateyS2SF",
+        "moduleName": "MyLibrary",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "funcSelfKind": "NonMutating"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "MyLibrary",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Function",
+        "name": "ua",
+        "printedName": "ua(_:)",
+        "children": [
+          {
+            "kind": "TypeNominal",
+            "name": "String",
+            "printedName": "Swift.String",
+            "usr": "s:SS"
+          },
+          {
+            "kind": "TypeNominal",
+            "name": "String",
+            "printedName": "Swift.String",
+            "usr": "s:SS"
+          }
+        ],
+        "declKind": "Func",
+        "usr": "s:9MyLibrary2uayS2SF",
+        "mangledName": "$s9MyLibrary2uayS2SF",
+        "moduleName": "MyLibrary",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "funcSelfKind": "NonMutating"
+      },
+      {
+        "kind": "Function",
+        "name": "uc",
+        "printedName": "uc(_:)",
+        "children": [
+          {
+            "kind": "TypeNominal",
+            "name": "String",
+            "printedName": "Swift.String",
+            "usr": "s:SS"
+          },
+          {
+            "kind": "TypeNominal",
+            "name": "String",
+            "printedName": "Swift.String",
+            "usr": "s:SS"
+          }
+        ],
+        "declKind": "Func",
+        "usr": "s:9MyLibrary2ucyS2SF",
+        "mangledName": "$s9MyLibrary2ucyS2SF",
+        "moduleName": "MyLibrary",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "funcSelfKind": "NonMutating"
+      },
+      {
+        "kind": "Function",
+        "name": "nfi",
+        "printedName": "nfi(_:)",
+        "children": [
+          {
+            "kind": "TypeNominal",
+            "name": "Optional",
+            "printedName": "Swift.String?",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "usr": "s:Sq"
+          },
+          {
+            "kind": "TypeNominal",
+            "name": "String",
+            "printedName": "Swift.String",
+            "usr": "s:SS"
+          }
+        ],
+        "declKind": "Func",
+        "usr": "s:9MyLibrary3nfiySSSgSSF",
+        "mangledName": "$s9MyLibrary3nfiySSSgSSF",
+        "moduleName": "MyLibrary",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "funcSelfKind": "NonMutating"
+      },
+      {
+        "kind": "Function",
+        "name": "numberToText",
+        "printedName": "numberToText(_:)",
+        "children": [
+          {
+            "kind": "TypeNominal",
+            "name": "String",
+            "printedName": "Swift.String",
+            "usr": "s:SS"
+          },
+          {
+            "kind": "TypeNominal",
+            "name": "Int64",
+            "printedName": "Swift.Int64",
+            "usr": "s:s5Int64V"
+          }
+        ],
+        "declKind": "Func",
+        "usr": "s:9MyLibrary12numberToTextySSs5Int64VF",
+        "mangledName": "$s9MyLibrary12numberToTextySSs5Int64VF",
+        "moduleName": "MyLibrary",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "funcSelfKind": "NonMutating"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "MyLibrary",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Function",
+        "name": "generateRandomAlphaNumeric",
+        "printedName": "generateRandomAlphaNumeric(length:)",
+        "children": [
+          {
+            "kind": "TypeNominal",
+            "name": "String",
+            "printedName": "Swift.String",
+            "usr": "s:SS"
+          },
+          {
+            "kind": "TypeNominal",
+            "name": "Int",
+            "printedName": "Swift.Int",
+            "usr": "s:Si"
+          }
+        ],
+        "declKind": "Func",
+        "usr": "s:9MyLibrary26generateRandomAlphaNumeric6lengthSSSi_tF",
+        "mangledName": "$s9MyLibrary26generateRandomAlphaNumeric6lengthSSSi_tF",
+        "moduleName": "MyLibrary",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "funcSelfKind": "NonMutating"
+      },
+      {
+        "kind": "Function",
+        "name": "generateRandomNumber",
+        "printedName": "generateRandomNumber(length:)",
+        "children": [
+          {
+            "kind": "TypeNominal",
+            "name": "String",
+            "printedName": "Swift.String",
+            "usr": "s:SS"
+          },
+          {
+            "kind": "TypeNominal",
+            "name": "Int",
+            "printedName": "Swift.Int",
+            "usr": "s:Si"
+          }
+        ],
+        "declKind": "Func",
+        "usr": "s:9MyLibrary20generateRandomNumber6lengthSSSi_tF",
+        "mangledName": "$s9MyLibrary20generateRandomNumber6lengthSSSi_tF",
+        "moduleName": "MyLibrary",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "funcSelfKind": "NonMutating"
+      },
+      {
+        "kind": "Function",
+        "name": "generateRandomString",
+        "printedName": "generateRandomString(length:)",
+        "children": [
+          {
+            "kind": "TypeNominal",
+            "name": "String",
+            "printedName": "Swift.String",
+            "usr": "s:SS"
+          },
+          {
+            "kind": "TypeNominal",
+            "name": "Int",
+            "printedName": "Swift.Int",
+            "usr": "s:Si"
+          }
+        ],
+        "declKind": "Func",
+        "usr": "s:9MyLibrary20generateRandomString6lengthSSSi_tF",
+        "mangledName": "$s9MyLibrary20generateRandomString6lengthSSSi_tF",
+        "moduleName": "MyLibrary",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "funcSelfKind": "NonMutating"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "MyLibrary",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Function",
+        "name": "enqry",
+        "printedName": "enqry(_:)",
+        "children": [
+          {
+            "kind": "TypeNominal",
+            "name": "String",
+            "printedName": "Swift.String",
+            "usr": "s:SS"
+          },
+          {
+            "kind": "TypeNominal",
+            "name": "String",
+            "printedName": "Swift.String",
+            "usr": "s:SS"
+          }
+        ],
+        "declKind": "Func",
+        "usr": "s:9MyLibrary5enqryyS2SF",
+        "mangledName": "$s9MyLibrary5enqryyS2SF",
+        "moduleName": "MyLibrary",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "funcSelfKind": "NonMutating"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "MyLibrary",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Function",
+        "name": "sendSMS",
+        "printedName": "sendSMS(phonenumber:message:)",
+        "children": [
+          {
+            "kind": "TypeNominal",
+            "name": "Void",
+            "printedName": "()"
+          },
+          {
+            "kind": "TypeNominal",
+            "name": "String",
+            "printedName": "Swift.String",
+            "usr": "s:SS"
+          },
+          {
+            "kind": "TypeNominal",
+            "name": "String",
+            "printedName": "Swift.String",
+            "usr": "s:SS"
+          }
+        ],
+        "declKind": "Func",
+        "usr": "s:9MyLibrary7sendSMS11phonenumber7messageySS_SStF",
+        "mangledName": "$s9MyLibrary7sendSMS11phonenumber7messageySS_SStF",
+        "moduleName": "MyLibrary",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "funcSelfKind": "NonMutating"
+      },
+      {
+        "kind": "Function",
+        "name": "sendEmail",
+        "printedName": "sendEmail(email:subject:body:)",
+        "children": [
+          {
+            "kind": "TypeNominal",
+            "name": "Void",
+            "printedName": "()"
+          },
+          {
+            "kind": "TypeNominal",
+            "name": "String",
+            "printedName": "Swift.String",
+            "usr": "s:SS"
+          },
+          {
+            "kind": "TypeNominal",
+            "name": "String",
+            "printedName": "Swift.String",
+            "usr": "s:SS"
+          },
+          {
+            "kind": "TypeNominal",
+            "name": "String",
+            "printedName": "Swift.String",
+            "usr": "s:SS"
+          }
+        ],
+        "declKind": "Func",
+        "usr": "s:9MyLibrary9sendEmail5email7subject4bodyySS_S2StF",
+        "mangledName": "$s9MyLibrary9sendEmail5email7subject4bodyySS_S2StF",
+        "moduleName": "MyLibrary",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "funcSelfKind": "NonMutating"
+      },
+      {
+        "kind": "Function",
+        "name": "sendWhatsapp",
+        "printedName": "sendWhatsapp(groupName:msg:)",
+        "children": [
+          {
+            "kind": "TypeNominal",
+            "name": "Void",
+            "printedName": "()"
+          },
+          {
+            "kind": "TypeNominal",
+            "name": "String",
+            "printedName": "Swift.String",
+            "usr": "s:SS"
+          },
+          {
+            "kind": "TypeNominal",
+            "name": "String",
+            "printedName": "Swift.String",
+            "usr": "s:SS"
+          }
+        ],
+        "declKind": "Func",
+        "usr": "s:9MyLibrary12sendWhatsapp9groupName3msgySS_SStF",
+        "mangledName": "$s9MyLibrary12sendWhatsapp9groupName3msgySS_SStF",
+        "moduleName": "MyLibrary",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "funcSelfKind": "NonMutating"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "MyLibrary",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "User",
+        "printedName": "User",
+        "children": [
+          {
+            "kind": "Function",
+            "name": "setUserInfo",
+            "printedName": "setUserInfo(name:id:area:ownComCode:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:9MyLibrary4UserC03setC4Info4name2id4area10ownComCodeySS_S3StF",
+            "mangledName": "$s9MyLibrary4UserC03setC4Info4name2id4area10ownComCodeySS_S3StF",
+            "moduleName": "MyLibrary",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "getName",
+            "printedName": "getName()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:9MyLibrary4UserC7getNameSSyF",
+            "mangledName": "$s9MyLibrary4UserC7getNameSSyF",
+            "moduleName": "MyLibrary",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "getId",
+            "printedName": "getId()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:9MyLibrary4UserC5getIdSSyF",
+            "mangledName": "$s9MyLibrary4UserC5getIdSSyF",
+            "moduleName": "MyLibrary",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "getArea",
+            "printedName": "getArea()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:9MyLibrary4UserC7getAreaSSyF",
+            "mangledName": "$s9MyLibrary4UserC7getAreaSSyF",
+            "moduleName": "MyLibrary",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "getOwnComCode",
+            "printedName": "getOwnComCode()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:9MyLibrary4UserC13getOwnComCodeSSyF",
+            "mangledName": "$s9MyLibrary4UserC13getOwnComCodeSSyF",
+            "moduleName": "MyLibrary",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "s:9MyLibrary4UserC",
+        "mangledName": "$s9MyLibrary4UserC",
+        "moduleName": "MyLibrary",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "hasMissingDesignatedInitializers": true,
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          }
+        ]
+      },
+      {
+        "kind": "Var",
+        "name": "user",
+        "printedName": "user",
+        "children": [
+          {
+            "kind": "TypeNominal",
+            "name": "User",
+            "printedName": "MyLibrary.User",
+            "usr": "s:9MyLibrary4UserC"
+          }
+        ],
+        "declKind": "Var",
+        "usr": "s:9MyLibrary4userAA4UserCvp",
+        "mangledName": "$s9MyLibrary4userAA4UserCvp",
+        "moduleName": "MyLibrary",
+        "declAttributes": [
+          "HasInitialValue",
+          "HasStorage",
+          "AccessControl"
+        ],
+        "hasStorage": true,
+        "accessors": [
+          {
+            "kind": "Accessor",
+            "name": "Get",
+            "printedName": "Get()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "User",
+                "printedName": "MyLibrary.User",
+                "usr": "s:9MyLibrary4UserC"
+              }
+            ],
+            "declKind": "Accessor",
+            "usr": "s:9MyLibrary4userAA4UserCvg",
+            "mangledName": "$s9MyLibrary4userAA4UserCvg",
+            "moduleName": "MyLibrary",
+            "implicit": true,
+            "accessorKind": "get"
+          },
+          {
+            "kind": "Accessor",
+            "name": "Set",
+            "printedName": "Set()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "User",
+                "printedName": "MyLibrary.User",
+                "usr": "s:9MyLibrary4UserC"
+              }
+            ],
+            "declKind": "Accessor",
+            "usr": "s:9MyLibrary4userAA4UserCvs",
+            "mangledName": "$s9MyLibrary4userAA4UserCvs",
+            "moduleName": "MyLibrary",
+            "implicit": true,
+            "accessorKind": "set"
+          },
+          {
+            "kind": "Accessor",
+            "name": "Modify",
+            "printedName": "Modify()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Accessor",
+            "usr": "s:9MyLibrary4userAA4UserCvM",
+            "mangledName": "$s9MyLibrary4userAA4UserCvM",
+            "moduleName": "MyLibrary",
+            "implicit": true,
+            "accessorKind": "_modify"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "MyLibrary",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Function",
+        "name": "validatePhoneNumber",
+        "printedName": "validatePhoneNumber(_:)",
+        "children": [
+          {
+            "kind": "TypeNominal",
+            "name": "Tuple",
+            "printedName": "(Swift.Bool, Swift.String)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ]
+          },
+          {
+            "kind": "TypeNominal",
+            "name": "String",
+            "printedName": "Swift.String",
+            "usr": "s:SS"
+          }
+        ],
+        "declKind": "Func",
+        "usr": "s:9MyLibrary19validatePhoneNumberySb_SStSSF",
+        "mangledName": "$s9MyLibrary19validatePhoneNumberySb_SStSSF",
+        "moduleName": "MyLibrary",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "funcSelfKind": "NonMutating"
+      },
+      {
+        "kind": "Function",
+        "name": "validateName",
+        "printedName": "validateName(_:)",
+        "children": [
+          {
+            "kind": "TypeNominal",
+            "name": "Tuple",
+            "printedName": "(Swift.Bool, Swift.String)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ]
+          },
+          {
+            "kind": "TypeNominal",
+            "name": "String",
+            "printedName": "Swift.String",
+            "usr": "s:SS"
+          }
+        ],
+        "declKind": "Func",
+        "usr": "s:9MyLibrary12validateNameySb_SStSSF",
+        "mangledName": "$s9MyLibrary12validateNameySb_SStSSF",
+        "moduleName": "MyLibrary",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "funcSelfKind": "NonMutating"
+      },
+      {
+        "kind": "Function",
+        "name": "validateOTP",
+        "printedName": "validateOTP(_:)",
+        "children": [
+          {
+            "kind": "TypeNominal",
+            "name": "Tuple",
+            "printedName": "(Swift.Bool, Swift.String)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ]
+          },
+          {
+            "kind": "TypeNominal",
+            "name": "String",
+            "printedName": "Swift.String",
+            "usr": "s:SS"
+          }
+        ],
+        "declKind": "Func",
+        "usr": "s:9MyLibrary11validateOTPySb_SStSSF",
+        "mangledName": "$s9MyLibrary11validateOTPySb_SStSSF",
+        "moduleName": "MyLibrary",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "funcSelfKind": "NonMutating"
+      },
+      {
+        "kind": "Function",
+        "name": "validateEmail",
+        "printedName": "validateEmail(_:)",
+        "children": [
+          {
+            "kind": "TypeNominal",
+            "name": "Tuple",
+            "printedName": "(Swift.Bool, Swift.String)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ]
+          },
+          {
+            "kind": "TypeNominal",
+            "name": "String",
+            "printedName": "Swift.String",
+            "usr": "s:SS"
+          }
+        ],
+        "declKind": "Func",
+        "usr": "s:9MyLibrary13validateEmailySb_SStSSF",
+        "mangledName": "$s9MyLibrary13validateEmailySb_SStSSF",
+        "moduleName": "MyLibrary",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "funcSelfKind": "NonMutating"
+      },
+      {
+        "kind": "Function",
+        "name": "ValidateAddress",
+        "printedName": "ValidateAddress(_:)",
+        "children": [
+          {
+            "kind": "TypeNominal",
+            "name": "Tuple",
+            "printedName": "(Swift.Bool, Swift.String)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ]
+          },
+          {
+            "kind": "TypeNominal",
+            "name": "String",
+            "printedName": "Swift.String",
+            "usr": "s:SS"
+          }
+        ],
+        "declKind": "Func",
+        "usr": "s:9MyLibrary15ValidateAddressySb_SStSSF",
+        "mangledName": "$s9MyLibrary15ValidateAddressySb_SStSSF",
+        "moduleName": "MyLibrary",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "funcSelfKind": "NonMutating"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "MyLibrary",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "String",
+        "printedName": "String",
+        "children": [
+          {
+            "kind": "Subscript",
+            "name": "subscript",
+            "printedName": "subscript(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Character",
+                "printedName": "Swift.Character",
+                "usr": "s:SJ"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Subscript",
+            "usr": "s:SS9MyLibraryEySJSicip",
+            "mangledName": "$sSS9MyLibraryEySJSicip",
+            "moduleName": "MyLibrary",
+            "isFromExtension": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Character",
+                    "printedName": "Swift.Character",
+                    "usr": "s:SJ"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:SS9MyLibraryEySJSicig",
+                "mangledName": "$sSS9MyLibraryEySJSicig",
+                "moduleName": "MyLibrary",
+                "isFromExtension": true,
+                "accessorKind": "get"
+              }
+            ]
+          }
+        ],
+        "declKind": "Struct",
+        "usr": "s:SS",
+        "mangledName": "$sSS",
+        "moduleName": "Swift",
+        "declAttributes": [
+          "EagerMove",
+          "Frozen"
+        ],
+        "isExternal": true,
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Transferable",
+            "printedName": "Transferable",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "Representation",
+                "printedName": "Representation",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "OpaqueTypeArchetype",
+                    "printedName": "some CoreTransferable.TransferRepresentation",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "TransferRepresentation",
+                        "printedName": "CoreTransferable.TransferRepresentation",
+                        "usr": "s:16CoreTransferable22TransferRepresentationP"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "usr": "s:16CoreTransferable0B0P",
+            "mangledName": "$s16CoreTransferable0B0P"
+          },
+          {
+            "kind": "Conformance",
+            "name": "BidirectionalCollection",
+            "printedName": "BidirectionalCollection",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "Element",
+                "printedName": "Element",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Character",
+                    "printedName": "Swift.Character",
+                    "usr": "s:SJ"
+                  }
+                ]
+              },
+              {
+                "kind": "TypeWitness",
+                "name": "Index",
+                "printedName": "Index",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Index",
+                    "printedName": "Swift.String.Index",
+                    "usr": "s:SS5IndexV"
+                  }
+                ]
+              },
+              {
+                "kind": "TypeWitness",
+                "name": "SubSequence",
+                "printedName": "SubSequence",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Substring",
+                    "printedName": "Swift.Substring",
+                    "usr": "s:Ss"
+                  }
+                ]
+              },
+              {
+                "kind": "TypeWitness",
+                "name": "Indices",
+                "printedName": "Indices",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "DefaultIndices",
+                    "printedName": "Swift.DefaultIndices<Swift.String>",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:SI"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:SK",
+            "mangledName": "$sSK"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CodingKeyRepresentable",
+            "printedName": "CodingKeyRepresentable",
+            "usr": "s:s22CodingKeyRepresentableP",
+            "mangledName": "$ss22CodingKeyRepresentableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Collection",
+            "printedName": "Collection",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "Element",
+                "printedName": "Element",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Character",
+                    "printedName": "Swift.Character",
+                    "usr": "s:SJ"
+                  }
+                ]
+              },
+              {
+                "kind": "TypeWitness",
+                "name": "Index",
+                "printedName": "Index",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Index",
+                    "printedName": "Swift.String.Index",
+                    "usr": "s:SS5IndexV"
+                  }
+                ]
+              },
+              {
+                "kind": "TypeWitness",
+                "name": "Iterator",
+                "printedName": "Iterator",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Iterator",
+                    "printedName": "Swift.String.Iterator",
+                    "usr": "s:SS8IteratorV"
+                  }
+                ]
+              },
+              {
+                "kind": "TypeWitness",
+                "name": "SubSequence",
+                "printedName": "SubSequence",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Substring",
+                    "printedName": "Swift.Substring",
+                    "usr": "s:Ss"
+                  }
+                ]
+              },
+              {
+                "kind": "TypeWitness",
+                "name": "Indices",
+                "printedName": "Indices",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "DefaultIndices",
+                    "printedName": "Swift.DefaultIndices<Swift.String>",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:SI"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:Sl",
+            "mangledName": "$sSl"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Comparable",
+            "printedName": "Comparable",
+            "usr": "s:SL",
+            "mangledName": "$sSL"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomReflectable",
+            "printedName": "CustomReflectable",
+            "usr": "s:s17CustomReflectableP",
+            "mangledName": "$ss17CustomReflectableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Decodable",
+            "printedName": "Decodable",
+            "usr": "s:Se",
+            "mangledName": "$sSe"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Encodable",
+            "printedName": "Encodable",
+            "usr": "s:SE",
+            "mangledName": "$sSE"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "ExpressibleByExtendedGraphemeClusterLiteral",
+            "printedName": "ExpressibleByExtendedGraphemeClusterLiteral",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "ExtendedGraphemeClusterLiteralType",
+                "printedName": "ExtendedGraphemeClusterLiteralType",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:s43ExpressibleByExtendedGraphemeClusterLiteralP",
+            "mangledName": "$ss43ExpressibleByExtendedGraphemeClusterLiteralP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "ExpressibleByStringInterpolation",
+            "printedName": "ExpressibleByStringInterpolation",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "StringInterpolation",
+                "printedName": "StringInterpolation",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "DefaultStringInterpolation",
+                    "printedName": "Swift.DefaultStringInterpolation",
+                    "usr": "s:s26DefaultStringInterpolationV"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:s32ExpressibleByStringInterpolationP",
+            "mangledName": "$ss32ExpressibleByStringInterpolationP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "ExpressibleByStringLiteral",
+            "printedName": "ExpressibleByStringLiteral",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "StringLiteralType",
+                "printedName": "StringLiteralType",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:s26ExpressibleByStringLiteralP",
+            "mangledName": "$ss26ExpressibleByStringLiteralP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "ExpressibleByUnicodeScalarLiteral",
+            "printedName": "ExpressibleByUnicodeScalarLiteral",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "UnicodeScalarLiteralType",
+                "printedName": "UnicodeScalarLiteralType",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:s33ExpressibleByUnicodeScalarLiteralP",
+            "mangledName": "$ss33ExpressibleByUnicodeScalarLiteralP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "LosslessStringConvertible",
+            "printedName": "LosslessStringConvertible",
+            "usr": "s:s25LosslessStringConvertibleP",
+            "mangledName": "$ss25LosslessStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "MirrorPath",
+            "printedName": "MirrorPath",
+            "usr": "s:s10MirrorPathP",
+            "mangledName": "$ss10MirrorPathP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "RangeReplaceableCollection",
+            "printedName": "RangeReplaceableCollection",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "SubSequence",
+                "printedName": "SubSequence",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Substring",
+                    "printedName": "Swift.Substring",
+                    "usr": "s:Ss"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:Sm",
+            "mangledName": "$sSm"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Sendable",
+            "printedName": "Sendable",
+            "usr": "s:s8SendableP",
+            "mangledName": "$ss8SendableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "SendableMetatype",
+            "printedName": "SendableMetatype",
+            "usr": "s:s16SendableMetatypeP",
+            "mangledName": "$ss16SendableMetatypeP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Sequence",
+            "printedName": "Sequence",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "Element",
+                "printedName": "Element",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Character",
+                    "printedName": "Swift.Character",
+                    "usr": "s:SJ"
+                  }
+                ]
+              },
+              {
+                "kind": "TypeWitness",
+                "name": "Iterator",
+                "printedName": "Iterator",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Iterator",
+                    "printedName": "Swift.String.Iterator",
+                    "usr": "s:SS8IteratorV"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:ST",
+            "mangledName": "$sST"
+          },
+          {
+            "kind": "Conformance",
+            "name": "StringProtocol",
+            "printedName": "StringProtocol",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "UTF8View",
+                "printedName": "UTF8View",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UTF8View",
+                    "printedName": "Swift.String.UTF8View",
+                    "usr": "s:SS8UTF8ViewV"
+                  }
+                ]
+              },
+              {
+                "kind": "TypeWitness",
+                "name": "UTF16View",
+                "printedName": "UTF16View",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UTF16View",
+                    "printedName": "Swift.String.UTF16View",
+                    "usr": "s:SS9UTF16ViewV"
+                  }
+                ]
+              },
+              {
+                "kind": "TypeWitness",
+                "name": "UnicodeScalarView",
+                "printedName": "UnicodeScalarView",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UnicodeScalarView",
+                    "printedName": "Swift.String.UnicodeScalarView",
+                    "usr": "s:SS17UnicodeScalarViewV"
+                  }
+                ]
+              },
+              {
+                "kind": "TypeWitness",
+                "name": "SubSequence",
+                "printedName": "SubSequence",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Substring",
+                    "printedName": "Swift.Substring",
+                    "usr": "s:Ss"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:Sy",
+            "mangledName": "$sSy"
+          },
+          {
+            "kind": "Conformance",
+            "name": "TextOutputStream",
+            "printedName": "TextOutputStream",
+            "usr": "s:s16TextOutputStreamP",
+            "mangledName": "$ss16TextOutputStreamP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "TextOutputStreamable",
+            "printedName": "TextOutputStreamable",
+            "usr": "s:s20TextOutputStreamableP",
+            "mangledName": "$ss20TextOutputStreamableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_CustomPlaygroundQuickLookable",
+            "printedName": "_CustomPlaygroundQuickLookable",
+            "usr": "s:s30_CustomPlaygroundQuickLookableP",
+            "mangledName": "$ss30_CustomPlaygroundQuickLookableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_ExpressibleByBuiltinExtendedGraphemeClusterLiteral",
+            "printedName": "_ExpressibleByBuiltinExtendedGraphemeClusterLiteral",
+            "usr": "s:s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP",
+            "mangledName": "$ss51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_ExpressibleByBuiltinStringLiteral",
+            "printedName": "_ExpressibleByBuiltinStringLiteral",
+            "usr": "s:s34_ExpressibleByBuiltinStringLiteralP",
+            "mangledName": "$ss34_ExpressibleByBuiltinStringLiteralP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_ExpressibleByBuiltinUnicodeScalarLiteral",
+            "printedName": "_ExpressibleByBuiltinUnicodeScalarLiteral",
+            "usr": "s:s41_ExpressibleByBuiltinUnicodeScalarLiteralP",
+            "mangledName": "$ss41_ExpressibleByBuiltinUnicodeScalarLiteralP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_HasContiguousBytes",
+            "printedName": "_HasContiguousBytes",
+            "usr": "s:s19_HasContiguousBytesP",
+            "mangledName": "$ss19_HasContiguousBytesP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_ObjectiveCBridgeable",
+            "printedName": "_ObjectiveCBridgeable",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "_ObjectiveCType",
+                "printedName": "_ObjectiveCType",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "NSString",
+                    "printedName": "Foundation.NSString",
+                    "usr": "c:objc(cs)NSString"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:s21_ObjectiveCBridgeableP",
+            "mangledName": "$ss21_ObjectiveCBridgeableP"
+          }
+        ]
+      }
+    ],
+    "json_format_version": 8
+  },
+  "ConstValues": [
+    {
+      "filePath": "\/Users\/fitliferavi\/Desktop\/SabiX-code\/MyLibrary\/MyLibrary\/NeuralEngine\/Database\/DatabaseConnection.swift",
+      "kind": "StringLiteral",
+      "offset": 271,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/fitliferavi\/Desktop\/SabiX-code\/MyLibrary\/MyLibrary\/NeuralEngine\/Database\/DatabaseConnection.swift",
+      "kind": "StringLiteral",
+      "offset": 6183,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/fitliferavi\/Desktop\/SabiX-code\/MyLibrary\/MyLibrary\/NeuralEngine\/Database\/DatabaseConnection.swift",
+      "kind": "StringLiteral",
+      "offset": 12044,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/fitliferavi\/Desktop\/SabiX-code\/MyLibrary\/MyLibrary\/NeuralEngine\/Database\/DatabaseConnection.swift",
+      "kind": "BooleanLiteral",
+      "offset": 18265,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/fitliferavi\/Desktop\/SabiX-code\/MyLibrary\/MyLibrary\/NeuralEngine\/Database\/DatabaseConnection.swift",
+      "kind": "StringLiteral",
+      "offset": 20289,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/fitliferavi\/Desktop\/SabiX-code\/MyLibrary\/MyLibrary\/NeuralEngine\/Database\/DatabaseConnection.swift",
+      "kind": "BooleanLiteral",
+      "offset": 39219,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/fitliferavi\/Desktop\/SabiX-code\/MyLibrary\/MyLibrary\/NeuralEngine\/Database\/DevOps.swift",
+      "kind": "IntegerLiteral",
+      "offset": 122,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/fitliferavi\/Desktop\/SabiX-code\/MyLibrary\/MyLibrary\/NeuralEngine\/Database\/DevOps.swift",
+      "kind": "StringLiteral",
+      "offset": 148,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/fitliferavi\/Desktop\/SabiX-code\/MyLibrary\/MyLibrary\/NeuralEngine\/Database\/DevOps.swift",
+      "kind": "StringLiteral",
+      "offset": 176,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/fitliferavi\/Desktop\/SabiX-code\/MyLibrary\/MyLibrary\/NeuralEngine\/Database\/DevOps.swift",
+      "kind": "IntegerLiteral",
+      "offset": 201,
+      "length": 2,
+      "value": "-1"
+    },
+    {
+      "filePath": "\/Users\/fitliferavi\/Desktop\/SabiX-code\/MyLibrary\/MyLibrary\/NeuralEngine\/Database\/DevOps.swift",
+      "kind": "StringLiteral",
+      "offset": 233,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/fitliferavi\/Desktop\/SabiX-code\/MyLibrary\/MyLibrary\/NeuralEngine\/Database\/DevOps.swift",
+      "kind": "StringLiteral",
+      "offset": 266,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/fitliferavi\/Desktop\/SabiX-code\/MyLibrary\/MyLibrary\/NeuralEngine\/Database\/DevOps.swift",
+      "kind": "StringLiteral",
+      "offset": 298,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/fitliferavi\/Desktop\/SabiX-code\/MyLibrary\/MyLibrary\/NeuralEngine\/Database\/DevOps.swift",
+      "kind": "StringLiteral",
+      "offset": 353,
+      "length": 40,
+      "value": "\"Reached Line $line : Iterated $i times\""
+    },
+    {
+      "filePath": "\/Users\/fitliferavi\/Desktop\/SabiX-code\/MyLibrary\/MyLibrary\/NeuralEngine\/Database\/DevOps.swift",
+      "kind": "StringLiteral",
+      "offset": 410,
+      "length": 13,
+      "value": "\"Quick Print\""
+    },
+    {
+      "filePath": "\/Users\/fitliferavi\/Desktop\/SabiX-code\/MyLibrary\/MyLibrary\/NeuralEngine\/Database\/DevOps.swift",
+      "kind": "StringLiteral",
+      "offset": 1990,
+      "length": 40,
+      "value": "\"Reached Line $line : Iterated $i times\""
+    },
+    {
+      "filePath": "\/Users\/fitliferavi\/Desktop\/SabiX-code\/MyLibrary\/MyLibrary\/NeuralEngine\/Database\/DevOps.swift",
+      "kind": "StringLiteral",
+      "offset": 2047,
+      "length": 13,
+      "value": "\"Quick Print\""
+    },
+    {
+      "filePath": "\/Users\/fitliferavi\/Desktop\/SabiX-code\/MyLibrary\/MyLibrary\/NeuralEngine\/Database\/SQLiteEngine.swift",
+      "kind": "Array",
+      "offset": 125,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/fitliferavi\/Desktop\/SabiX-code\/MyLibrary\/MyLibrary\/NeuralEngine\/Database\/SQLizers.swift",
+      "kind": "IntegerLiteral",
+      "offset": 158,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/fitliferavi\/Desktop\/SabiX-code\/MyLibrary\/MyLibrary\/NeuralEngine\/Database\/SQLizers.swift",
+      "kind": "StringLiteral",
+      "offset": 584,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/fitliferavi\/Desktop\/SabiX-code\/MyLibrary\/MyLibrary\/NeuralEngine\/Database\/SQLizers.swift",
+      "kind": "StringLiteral",
+      "offset": 607,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/fitliferavi\/Desktop\/SabiX-code\/MyLibrary\/MyLibrary\/NeuralEngine\/Database\/SQLizers.swift",
+      "kind": "StringLiteral",
+      "offset": 1212,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/fitliferavi\/Desktop\/SabiX-code\/MyLibrary\/MyLibrary\/NeuralEngine\/Database\/SQLizers.swift",
+      "kind": "StringLiteral",
+      "offset": 1235,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/fitliferavi\/Desktop\/SabiX-code\/MyLibrary\/MyLibrary\/NeuralEngine\/Database\/SQLizers.swift",
+      "kind": "StringLiteral",
+      "offset": 1786,
+      "length": 11,
+      "value": "\"SQL Debug\""
+    },
+    {
+      "filePath": "\/Users\/fitliferavi\/Desktop\/SabiX-code\/MyLibrary\/MyLibrary\/NeuralEngine\/Database\/SQLizers.swift",
+      "kind": "BooleanLiteral",
+      "offset": 5069,
+      "length": 4,
+      "value": "true"
+    }
+  ]
+}

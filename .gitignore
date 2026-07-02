@@ -1,0 +1,10 @@
+# Hide source code
+MyLibrary/
+MyLibraryTests/
+
+# Xcode junk
+build/
+DerivedData/
+.build/
+*.xcuserstate
+.DS_Store
