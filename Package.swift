@@ -10,8 +10,9 @@ let package = Package(
     targets: [
         .binaryTarget(
             name: "MyLibrary",
-            url: "PASTE_YOUR_RELEASE_ZIP_URL_HERE",
-            checksum: "PASTE_YOUR_CHECKSUM_HERE"
+            url: "https://github.com/Sabinash-R/MyLibrary/releases/download/1.0.0/MyLibrary.xcframework.zip
+MyLibrary.xcframework.zip",
+            checksum: "4f1dab53e795fb0b9bcd378fc8d8fa593bda4dada57fc9b1fc8dc56bc131de2f"
         )
     ]
 )
