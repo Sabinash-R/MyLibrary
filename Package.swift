@@ -11,7 +11,7 @@ let package = Package(
         .binaryTarget(
             name: "MyLibrary",
             url: "https://github.com/Sabinash-R/MyLibrary/releases/download/1.0.0/MyLibrary.xcframework.zip",
-            checksum: "4f1dab53e795fb0b9bcd378fc8d8fa593bda4dada57fc9b1fc8dc56bc131de2f"
+            checksum: "13db531ebd9ac19e9ff5011df5cce84960bc85fd3406db5b1bb7697622d04da5"
         )
     ]
 )
